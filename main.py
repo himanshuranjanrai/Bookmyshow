@@ -1,4 +1,4 @@
-class Bookyourmovie:
+class Bookmyshow:
     
     @staticmethod
     def menu():
@@ -47,7 +47,7 @@ if __name__ == '__main__':
     col = int(input("Enter the number of seats in each row:"))
     column_list = []
     Total_seats = row * col
-    Ticket = Bookyourmovie()
+    Ticket = Bookmyshow()
     Ticket.seats()
     Audience_list = [[None for j in range(col)] for i in range(row)]
     Booked_seats = 0
